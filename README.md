@@ -1,18 +1,19 @@
-## Getting Started
+# Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancaria, foi identificado a necessidade de uma nova funcionalidade para otimizar os processos e melhorias da experiência dos usuários. Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada pelos usuários. Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangiveis e dentre outros.
 
-## Folder Structure
+**Regra de Formatação:** Considere apenas **uma casa decimal** para esse desafio.
 
-The workspace contains two folders by default, where:
+# Saída
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Exemplos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Entrada | Saída |
+| --- | --- |
+| 3Financiamento de ImovelDepositoReservas Bancarias  | DepositoFinanciamento de ImovelReservas Bancarias |
+| 3Carteiras de creditoInvestimentos em titulosDerivativos financeiros | Carteiras de creditoDerivativos financeirosInvestimentos em titulos |
+| 3Reservas de liquidezAtivos intangiveisFundos de investimento | Ativos intangiveisFundos de investimentoReservas de liquidez |
